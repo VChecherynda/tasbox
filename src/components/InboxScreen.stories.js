@@ -20,7 +20,7 @@ const store = {
 export default {
     component: InboxScreen,
     decorators: [story => <Provider store={store}>{story()}</Provider>],
-    title: 'InboxScreen'
+    title: 'InboxScreen Test 1'
 }
 
 const Template = args => <InboxScreen {...args} />
